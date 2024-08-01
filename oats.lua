@@ -1,9 +1,8 @@
---fwYF小天破解源码圈钱狗卖十元白名单
 local OrionLib = loadstring(game:HttpGet(('https://pastebin.com/raw/KuEsRX44')))()
 local Window = OrionLib:MakeWindow({Name = 'YFHUB', HidePremium = false, SaveConfig = true, ConfigFolder = 'OrionTest', IntroText = 'YFHUB BY YF'})
 OrionLib:MakeNotification({
     Name = '尊敬的用户：',
-    Content = '感谢您支持YF！',
+    Content = '感谢您支持oats！',
     Image = 'rbxassetid://4483345998',
     Time = 5
 })
@@ -27,7 +26,7 @@ local race = Window:MakeTab({
     Icon = 'rbxassetid://7733771891',
     PremiumOnly = false
 })
-Home:AddParagraph('YF制作','官方QQ群156778698')
+Home:AddParagraph('oats制作','目前还在测试中，请等待')
 Home:AddDropdown({
     Name = '脚本',
     Default = '',
